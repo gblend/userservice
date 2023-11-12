@@ -42,7 +42,7 @@ import {AuthService} from '../services/authService';
     });
   };
 
-     logout = async (req: Request, res: Response): Promise<void> =>{
+     logout = async (req: Request, res: Response): Promise<any> =>{
     const {
       user
     }: { user: ITokenUser } = adaptRequest(req);
@@ -51,7 +51,7 @@ import {AuthService} from '../services/authService';
     res.status(StatusCodes.NO_CONTENT).json({});
   }
 
-     verifyEmail = async (req: Request, res: Response): Promise<void> =>{
+     verifyEmail = async (req: Request, res: Response): Promise<any> =>{
     const {
       body,
     } = adaptRequest(req);
