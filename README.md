@@ -60,7 +60,9 @@ To run tests, run the following command
 ```
 
 ## Documentation
-[Documentation](https://localhost:5000/api-docs)
+[Documentation](https://localhost:5000/api-docs): Navigate to ``https://localhost:5000/api-docs`` on your browser to view documentation
+
+![alt text](public/img.png)
 
 ## Tech Stack
 **Server:** Node, Express, Typescript
